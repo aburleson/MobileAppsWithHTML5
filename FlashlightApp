@@ -1,1 +1,119 @@
+Class Assignment
 
+Create a Flashlight App for your phone that will light up the screen with colors.
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta name="apple-mobile-web-app-capable" content="yes">   
+<meta name="apple-mobile-web-app-status-bar-style" content="black">    
+    
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WatzThis?</title>
+ 
+<script>
+var light = new Array();
+var t;
+var color = 0;
+var flipping = 0;
+var speed = 1000;
+light[0] = 'black';
+light[1] = 'white';
+light[2] = 'red';
+light[3] = 'blue';
+light[4] = 'green';
+light[5] = 'purple';
+light[6] = 'orange';
+light[7] = 'yellow';
+function flip(whichway){
+document.body.style.backgroundColor = light[whichway];
+document.getElementById("displayColor").innerHTML = light[whichway];
+stopFlip();
+}
+
+function autoFlip() { 
+   document.body.style.backgroundColor = light[color];
+   if (color > 1) {         
+      color-=2;     
+    } else {         
+      color=light.length-1;     
+    }
+    document.body.style.backgroundColor = light[color];
+    document.getElementById("displayColor").innerHTML = light[color];
+
+     
+t = setTimeout("autoFlip()",speed); 
+} 
+function doAutoFlip(changespeed){     
+ if (!flipping){         
+   flipping=2;   
+   speed=changespeed;      
+   autoFlip();     
+ }    
+} 
+function stopFlip() {     
+ clearTimeout(t);     
+ flipping=0; 
+} 
+
+</script>
+
+<style>
+body {
+  font-family:impact, comic sans;
+  text-align: center;
+}
+#container {}
+#directions, #flashlight, #danceparty #broncos {
+  margin:8px;
+}
+ ol {
+  display: inline-block;
+  margin: 0 auto;
+  text-align:left;
+ }
+ .bigButton {
+    font-size:18px;
+}
+</style>
+</head>
+<body>
+    
+<h1>WatzThis?</h1>
+<div id="displayColor"></div>
+<div id="directions">
+<ol>
+  <li>Use the top row of buttons to turn the flashlight on or off, or to make the light red.</li>
+  <li>Use the 2nd row of buttons to turn on and off your automatic flashing color light dance party.</li>
+  <li>Use the 3rd row of buttons to turn your phone into a Denver Broncos dream!</li>
+</ol>
+</div>
+    
+
+<div id="container"> 
+
+<div id="flashlight">    
+<input type="button" value="OFF" onclick="flip(0);">
+<input type="button" value="ON" onclick="flip(1);">
+<input type="button" value="RED" onclick="flip(2);">
+<input type="button" value="BLUE" onclick="flip(3);">    
+<input type="button" value="PURPLE" onclick="flip(5);">    
+</div> 
+<div id="danceparty"> 
+<input type="button" id="AUTO" class="bigButton" value="DANCE PARTY!" onclick="doAutoFlip(500);"> 
+<input type="button" id="STOP" class="bigButton" value="STOP THE SEIZURE" onclick="stopFlip();"> 
+</div>
+<div id="broncos">    
+<input type="button" value="DENVER" onclick="flip(3);">    
+<input type="button" value="BRONCOS" onclick="flip(6);">    
+</div> 
+</div> 
+
+</body>
+</html>
