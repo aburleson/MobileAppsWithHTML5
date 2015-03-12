@@ -1,0 +1,92 @@
+Class Assignment
+
+Had to create a webpage using HTML5 with images. I created a recipe blog page from one of my favorite cheesecake recipes.
+
+
+
+  <h1>Cinnamon Roll Cheesecake</h1>
+
+  </header>
+
+     <section>
+
+      <h2>Looking for Something Sweet?</h2>
+
+      <p>The honey man is not much of a sweets person, which <strong>kind</strong> of kills me! (You're killing me, smalls!)
+      I am all about chocolate, peanut butter, Oreos and <em>anything</em> with the word cheesecake in it. So when I
+      stumbled across this recipe from my home girl over at the-girl-who-ate-everything.com, <a href="http://www.the-girl-who-ate-everything.com">Click here</a>,
+      I fell
+      in love! Cinnamon rolls AND cheesecake!? Yes please!</p>
+
+      <figure>
+      <img src="http://www.the-girl-who-ate-everything.com/wp-content/uploads/blogger/-ln_xhXa6C30/UHTg7Vhn0dI/AAAAAAAAJ8A/fZ2wDoRtudA/s640/cinnabon-cheesecake.JPG"
+           alt="Yummy……...">
+      <figcaption> Photo courtesy of http://www.the-girl-who-ate-everything.com.</figcaption>
+      </figure>
+
+      <p>Like the recipe claims, there are a significant number of steps for making this cheesecake… but I promise you
+      that it is worth it.</p>
+   </section>
+
+      <h2>Ingredients</h2>
+      <p><strong>Cinnamon RollBatter:</strong></p> 
+              <p>2/3 cup white sugar</p>
+              <p>¼ cup unsalted butter, room temperature</p>
+              <p>1 egg</p>
+              <p>½ cup milk</p>
+              <p>1 tablespoon vanilla extract</p>
+              <p>2 cups flour</p>
+              <p>2 teaspoons baking powder</p>
+              <p>½ teaspoon salt</p>
+
+              <p><strong>Cheesecake Filling:</strong></p>
+              <p>2 packages (8 oz. each) cream cheese, room temperature</p>
+              <p>1 cup sugar</p>
+              <p>1 tablespoon vanilla extract</p>
+              <p>2 tablespoons flour</p>
+              <p>3 eggs</p>
+
+              <p><strong>Cinnamon Filling:</strong></p>
+              <p>1/3 cup butter, melted</p>
+              <p>1 cup brown sugar</p>
+              <p>3 tablespoons cinnamon</p>
+
+    </section>
+
+    <section>
+
+      <h2>Instructions:</h2>
+
+      <p>1.) Preheat oven to 350 degrees and grease a 9-inch Springform pan.</p>
+      <p>2.) For the Cinnamon Roll Batter: In a large bowl or stand mixer, cream together the butter and sugar
+      for a few minutes, until light and fluffy. Add the egg, milk and vanilla; beat for another minute scraping
+      down the bowl. Sift together flour, baking soda and salt; combine into the creamed ingredients.
+      Mix on low speed until thoroughly combined.</p>
+      <p>3.) Spread half of the batter onto the bottom of the pan. You may have to spray your hands with baking
+      spray to avoid dough stickiness. Layer will be thin, but will rise while in oven. Set remaining dough aside.</p>
+      <p>4.) For the Cheesecake Filling: Using a stand mixer or hand mixer, beat cream cheese and sugar for 2
+      minutes on medium-high speed. Add the eggs, one at a time, scraping down the bowl after each addition.
+      Add the vanilla and flour and beat for another minute.</p>
+      <p>5.) Pour all of the cheesecake batter on top of the cinnamon roll batter in the prepared pan.</p>
+      <p>6.) Cinnamon Filling: In a small bowl, combine the melted butter, cinnamon and brown sugar; mix until
+      thoroughly combined.</p> 
+      <p>7.) Drop spoonfuls of the cinnamon filling over the entire top of the cheesecake, making sure not to
+      get too close to the sides. Take the rest of the cinnamon roll base dough and drop spoonfuls over the
+      entire top.</p>
+      <p>8.) Swirl the filling and the dough using a knife… the batter will be thick but doing it slowly will
+      give the best results.</p>
+      <p>9.) Bake for about 45 – 55 minutes or until the center has set. Let chill for 20 minutes before moving
+      to the fridge to cool (about 4 hours). Drizzle with cream cheese frosting and enjoy!</p>
+
+    </section>
+
+  <footer>
+  <p>Page created by Annette Burleson</p>
+  </footer>
+
+</body>
+
+</html>
+
+
+
